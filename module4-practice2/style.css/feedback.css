@@ -1,0 +1,25 @@
+.div1{
+    border: 2px solid black;
+    width: 30%;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.div2 form{
+    align-items: center;
+}
+.div2 form input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    
+    
+}
+.div2{
+    background-color: indianred;
+    padding: 10px;
+}

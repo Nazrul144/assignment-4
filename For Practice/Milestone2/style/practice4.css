@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+}
+.container2{
+    display:flex;
+}
+
+
+.container img{
+    width: 100%;
+    width: 500px;
+    padding:10px;
+    border-radius: 30px;
+  
+}
+.container2 img{
+    width: 100%;
+    width: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.text-div{
+    margin-top: 120px;
+}
+.text-div2{
+    margin-top: 120px;
+}
+
+/*Media query*/
+
+@media screen and (max-width: 576px) {
+    .container,.container2{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:577px) and (992px) {
+    .container,.container2{
+        flex-direction: column;
+    }
+}

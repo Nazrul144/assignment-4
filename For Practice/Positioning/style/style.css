@@ -1,0 +1,33 @@
+.box{
+    border: 2px dotted peru;
+    width: 100px;
+}
+.football2{
+    position:sticky;
+    top: 0;
+}
+.ex{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rebeccapurple;
+}
+
+.last{
+    position:sticky;
+    bottom: 0;
+    background-color: red;
+}
+.another{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+.dummy{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.another{
+    border: 2px solid rebeccapurple;
+}

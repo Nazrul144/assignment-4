@@ -1,0 +1,160 @@
+/*Shared Style for*/
+
+/*Header Part Start here*/
+.header {
+    width: 1440px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 80px 120px;
+}
+
+/*Nav Style Start*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 35px;
+    font-weight: 600px;
+    font-family: 'Poppins';
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/*Nav Style ends here*/
+
+.main-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 330px;
+}
+
+.Journey{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 700;
+    width: 582px;
+}
+
+.textdescription {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.btn {
+    color: #FFF;
+    font-family: Poppins;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 8px 24px;
+    border: 0;
+}
+.fa-solid{
+    padding-left: 5px;
+}
+
+
+/*Title and Camera Style starts*/
+
+.img {
+    position: relative;
+}
+
+.img_camera {
+    position: absolute;
+    top: 280px;
+    right: 200px;
+    width: 350px;
+    height: 350px;
+}
+
+/*Title and Camera Style ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query Start Here*/
+
+@media screen and (max-width:576px) {
+    nav, nav>ul{
+        display:block;
+        align-items: center;
+        width: 320px;
+    }
+
+    .main-container{
+        margin-top: 50px;
+        display:block;
+        width: 320px;
+        
+    }
+    .text, .Journey{
+        width: 350px;
+        padding: 2px;
+        font-weight: 400px;
+        font-size: 1.5rem;
+    }
+    .textdescription{
+        font-size: 1rem;
+        padding: 2px;
+        width: 350px;
+    }
+
+    .img {
+        position: relative;
+    }
+    
+    .img_camera {
+        position: absolute;
+        top: 280px;
+        right: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    .img-background{
+        top: 280px;
+        right: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    
+
+
+}

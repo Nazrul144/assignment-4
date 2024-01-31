@@ -1,0 +1,25 @@
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid aquamarine;
+    align-items: center;
+    height:100vh;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  
+}

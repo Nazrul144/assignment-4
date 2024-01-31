@@ -1,0 +1,25 @@
+.img-container img{
+   width: 1800px;
+  
+   border: 2px solid black;
+}
+
+.main-container{
+    border: 2px solid tomato;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .img-container img{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .img-container img{
+        width: 1000px;
+    }
+}

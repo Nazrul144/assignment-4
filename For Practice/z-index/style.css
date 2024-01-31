@@ -1,0 +1,24 @@
+.main-container{
+    position: relative;
+}
+.box{
+    /* border: 2px dotted indigo; */
+    width: 180px;
+    padding: 20px;
+  
+}
+
+.boy{
+    z-index: 6;
+    position: relative;
+}
+.ring{
+    z-index: 5;
+    top:40px;
+    position: absolute;
+}
+.water{
+    z-index: ;
+    top: 50px;
+    position: absolute;
+}

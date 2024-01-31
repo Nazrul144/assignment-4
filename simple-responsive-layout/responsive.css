@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid tomato;
+    display: flex;
+   
+}
+
+.container div img{
+    width: 100%;
+}
+div img{
+ width: 50%;
+}
+
+.container div{
+    width: 50%;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    
+}

@@ -1,0 +1,41 @@
+.left{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.right{
+    background-color: bisque;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    gap:5px;
+    padding: 10px;
+    width: 600px;
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
+    .right{
+        width:300px;
+    }
+    .left{
+        height: 100px;
+        background-color:gray;
+    }
+}

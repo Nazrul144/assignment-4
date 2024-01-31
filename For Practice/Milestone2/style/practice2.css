@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 50vh;
+    padding: 4px;
+}
+
+.red{
+    background-color:mediumvioletred;
+    grid-column: 1/span 6;
+    grid-row: 1/span 2;
+}
+.orange{
+  background-color: orange;
+  grid-column: 7/span 6;
+}
+.blueviolate{
+    background-color: blueviolet;
+    grid-column: 7/ span 3;
+}
+.gray{
+    background-color: gray;
+    grid-column: 10/span 3;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        grid-template-rows: repeat(4,1fr);
+    }
+
+    .red,.orange, .blueviolate, .gray{
+        
+        grid-column: 1/span 12;
+    }
+
+ .red{
+    grid-row: 1/span 1;
+ }
+
+}
