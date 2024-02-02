@@ -11,8 +11,9 @@ let colors = ['red', 'blue', 'green', 'yellow', 'orange'];
 
 let store = [];
 
-for(let i= 0; i<colors.length; i++){
-    let num = colors[i];
+let i = 0; 
+for (let color of colors){
+    let num = color;
     store.unshift(num);
 }
 console.log(store);
