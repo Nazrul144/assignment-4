@@ -6,12 +6,16 @@
 
 // 'TomTimTinTik'
 
- let numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
-let concatenateString = '';
+let numbers = ['Tom', 'Tim', 'Tin', 'Tik']
 
-for(let item of numbers){
-    let num = item;
-    
+let newString = "'";
+
+for (let item of numbers){
+    newString = newString+item;
 }
+newString = newString + "'";
+
+console.log(newString);
+
 
 
