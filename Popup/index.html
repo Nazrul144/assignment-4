@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section>
+        <div id="main" class="mx-auto bg-slate-400 w-56 justify-center ">
+            <div action="" class="justify-center p-8">
+                <input type="text" placeholder="Enter your name"> <br><br>
+                <input type="text" placeholder="Enter your email"> <br> <br>
+                <input type="text" placeholder="Enter your password"> <br> <br>
+                <input type="text" placeholder="Enter your phone"> <br> <br>
+                <button class="p-3 bg-red-700 rounded text-white" onclick="openPopup()">Submit</button>
+            </div>
+        </div>
+    </section>
+    <section>
+       <div id="main2" class="flex mx-auto justify-center hidden">
+        <div class="mx-auto">
+            <img src="image/success.png" alt="">
+            <h1>You have successfully done your project</h1>
+            <h3>Thank you so much</h3>
+            <button class="bg-orange-400 p-2 font-bold rounded ml-12">Continue</button>
+        </div>
+       </div>
+    </section>
+
+    <script>
+        function openPopup(){
+            const result = document.getElementById("main");
+            result.classList.add('hidden');
+
+            
+            const result2 = document.getElementById("main2");
+            result2.classList.remove("hidden");
+
+        }
+
+
+    </script>
+    
+</body>
+</html>

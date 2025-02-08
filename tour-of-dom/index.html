@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of dom</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        li{
+            color:blue;
+            font-weight: bold;
+        }
+        #fruits-title{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DOM</h1>
+    </header>
+    <main>
+        <h1>My awesome dom de baba</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, laudantium eum! Perspiciatis officia beatae eligendi culpa assumenda possimus sed nam veritatis cumque reprehenderit dolor voluptas aut iusto ipsa distinctio blanditiis quod corrupti odio, repudiandae earum illo vel. Corporis, obcaecati quod.</p>
+        <ul>
+            <li>My love</li>
+            <li>My part</li>
+            <li>My hate</li>
+            <li>Dom De re baba</li>
+        </ul>
+        <section id="container">
+            <h1 id="fruits-title" class=" some class random class what">Fruits I like</h1>
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Jack Fruit</li>
+        </section>
+        <section>
+            <h1 class="love">places I like to visit</h1>
+            <ul class="places">
+                <li class="important">Bandarban</li>
+                <li class="important">Sundorban</li>
+                <li class="important">Kataban</li>
+                <li class="important">Salban</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="loves">What are you doing now?</h1>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/styleInJs.js"></script>
+    <script src="js/append.js"></script>
+
+    <script>
+      const liCollection = document.getElementsByTagName('li');
+    //   console.log(liCollection);
+    for(const li of liCollection){
+        // console.log(li.innerText);
+    }
+  
+   const changed = document.getElementById('fruits-title');
+   changed.innerText = 'Fruits title has been changed by JS';
+
+   const prop = document.getElementById('loves');
+   prop.innerText = 'I am crazy fan of you dear';
+
+   
+
+
+
+    </script>
+</body>
+</html>
